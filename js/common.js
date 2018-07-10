@@ -5,7 +5,7 @@ $(document).ready(function() {
   $('.center').slick({
       centerMode: true,
       dots: true,
-      autoplay: true,
+      // autoplay: true,
       slidesToShow: 1,
   });
   
@@ -60,5 +60,11 @@ $(document).ready(function() {
         });
       });
     })(jQuery);
+
+
+
+
+
+  
 
 });

@@ -67,6 +67,10 @@ header {
 	cursor: pointer;
 }
 
+.ru:hover, .en:hover {
+	color: #414141;
+}
+
 .search {
 	padding-left: 45px;
 }
@@ -147,6 +151,10 @@ ul li.jf {
 
 input, .btn-help, .btn-help:hover, .btn-more, .btn-more:hover {
 	outline: none;
+}
+
+.btn-help:hover, .btn-more:hover {
+	background-image: linear-gradient(#e3bac8, #e3608c);
 }
 
 /*****Adaptive menu*****/
@@ -230,6 +238,7 @@ input, .btn-help, .btn-help:hover, .btn-more, .btn-more:hover {
 	display: none;
 }
 
+
 /*Slider-main-section*/
 
 .slider-main {
@@ -303,6 +312,10 @@ h1 {
 	background-color: #71bdff;
     top: 520px;
     margin-left: 70px;
+}
+
+.slider-section .btn-more:hover {
+	background-image: linear-gradient(#a0d0f9, #52a1e7);
 }
 
 /*News-section*/
@@ -419,6 +432,10 @@ h1 {
 	padding-bottom: 52px;
 }
 
+.news-more:hover {
+	color: #414141;
+}
+
 /*Sponsors-section*/
 
 .sponsors {
@@ -530,6 +547,12 @@ h1 {
 	padding-right: 15px;
 }
 
+.scl-icons img:hover {
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
 .scl-icons img {
 	border-radius: 5px;
 }
@@ -540,7 +563,7 @@ h1 {
 }
 
 .tel:hover, .mail:hover {
-	text-decoration: underline;
+	color: #414141;
 }
 .contacts-map {
 	padding-top: 30px;

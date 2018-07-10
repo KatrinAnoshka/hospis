@@ -145,6 +145,14 @@
         padding-bottom: 28px;
     }
 
+	/*Slider-main-section*/
+
+	/*.slider-main .slick-slide {
+	  
+	    margin-right: 87px;
+	   
+	}*/
+
     /*Contacts-section*/
     
     .contacts-main {
@@ -221,10 +229,10 @@
     }
 
     /*Slider-section*/
-    .slider-main .slick-slider {
+    /*.slider-main .slick-slider {
         
         margin-left: 10px;
-    }
+    }*/
     /*News-section*/
 
     .news-main {
@@ -365,7 +373,7 @@
 
     .menu__icon {
         position: absolute;
-        top: 36%;
+        top: 55%;
         left: 13%;
     }
 
