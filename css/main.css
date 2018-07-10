@@ -154,6 +154,9 @@ input, .btn-help, .btn-help:hover, .btn-more, .btn-more:hover {
 }
 
 .btn-help:hover, .btn-more:hover {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e3bac8), to(#e3608c));
+	background-image: -webkit-linear-gradient(#e3bac8, #e3608c);
+	background-image: -o-linear-gradient(#e3bac8, #e3608c);
 	background-image: linear-gradient(#e3bac8, #e3608c);
 }
 
@@ -238,7 +241,6 @@ input, .btn-help, .btn-help:hover, .btn-more, .btn-more:hover {
 	display: none;
 }
 
-
 /*Slider-main-section*/
 
 .slider-main {
@@ -275,7 +277,7 @@ input, .btn-help, .btn-help:hover, .btn-more, .btn-more:hover {
 }
 
 .slider-main .slick-slider {
-    margin:0 -62px;
+    margin:0 -69px;
 }
 
 .slider-main .slick-slide {
@@ -307,6 +309,7 @@ h1 {
 .sponsors .slick-slide img {
 	width: 100px;
 }
+
 .slider-section .btn-more {
 	position: absolute;
 	background-color: #71bdff;
@@ -315,6 +318,9 @@ h1 {
 }
 
 .slider-section .btn-more:hover {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#a0d0f9), to(#52a1e7));
+	background-image: -webkit-linear-gradient(#a0d0f9, #52a1e7);
+	background-image: -o-linear-gradient(#a0d0f9, #52a1e7);
 	background-image: linear-gradient(#a0d0f9, #52a1e7);
 }
 
@@ -511,7 +517,9 @@ h1 {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 77%;
     margin: 0 auto;
 }
@@ -570,4 +578,3 @@ h1 {
 	padding-left: 145px;
 	max-width: 100%;
 }
-

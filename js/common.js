@@ -5,14 +5,13 @@ $(document).ready(function() {
   $('.center').slick({
       centerMode: true,
       dots: true,
-      // autoplay: true,
+      autoplay: true,
       slidesToShow: 1,
   });
   
   // Sponsors-section
 
   $('.multiple-items').slick({
-
         infinite: true,
         dots: true,
         autoplay: true,
@@ -48,7 +47,7 @@ $(document).ready(function() {
       }
     }
 ]
-      });
+  });
 
   // Adaptive menu 
 
@@ -60,11 +59,5 @@ $(document).ready(function() {
         });
       });
     })(jQuery);
-
-
-
-
-
-  
 
 });
